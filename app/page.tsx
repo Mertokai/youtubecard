@@ -3,7 +3,7 @@
 import { useRef } from "react";
 
 export default function Home() {
-  const video = useRef(null);
+  const video = useRef<HTMLVideoElement>(null);
 
   const Play = () => {
     console.log("play");
